@@ -1,5 +1,5 @@
 import authService from "../service/authService";
-import { setUser, setLoading, setError, logout } from "./authSlice";
+import { setUser, setLoading, setError, logout } from "../slice/authSlice";
 
 export const registerUser = (email, password) => async (dispatch) => {
   dispatch(setLoading(true));
