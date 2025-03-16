@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, } from 'react-native'
 import React from 'react'
-import { colors } from '../../utils/colours.js'
+import  colors from '../../utils/colors.js'
 import { fonts } from '../../utils/fonts.js'
 
 const Button = ({title, onPress}) => {

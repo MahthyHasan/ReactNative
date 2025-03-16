@@ -5,7 +5,7 @@ import { logoutUser } from '../../action/authActions';
 
 import { fonts } from '../../utils/fonts';
 import Button from '../atoms/Button';
-import { colors } from '../../utils/colours.js';
+import colors from '../../utils/colors.js';
 
 const Profile = ({ navigation }) => {
   const dispatch = useDispatch();

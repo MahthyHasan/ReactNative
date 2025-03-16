@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Alert } from 'react-native';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { loginUser } from '../../action/authActions.js'; 
-import { colors } from '../../utils/colours.js';
+import colors from '../../utils/colors.js';
 import { fonts } from '../../utils/fonts.js';
 import Button from '../atoms/Button.js';
 import TextInputField from '../atoms/TextInputField.js';

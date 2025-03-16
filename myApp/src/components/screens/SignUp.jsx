@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, TouchableOpacity, Image, Alert } from 'react-native';
 import React, { useState } from 'react';
-import { colors } from '../../utils/colours.js';
+import colors from '../../utils/colors.js';
 import { fonts } from '../../utils/fonts.js';
 import Button from '../atoms/Button.js';
 import TextInputField from '../atoms/TextInputField.js';

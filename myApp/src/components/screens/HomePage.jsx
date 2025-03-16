@@ -5,7 +5,7 @@ import { logoutUser } from '../../action/authActions';
 
 import { fonts } from '../../utils/fonts.js';
 import Button from '../atoms/Button';
-import { colors } from '../../utils/colours.js';
+import colors from '../../utils/colors.js';
 
 const HomePage = ({ navigation }) => {
   const dispatch = useDispatch();

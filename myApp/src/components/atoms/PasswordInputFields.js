@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { TextInput, StyleSheet, Text, View, Animated, TouchableOpacity, Image } from "react-native";
-import { colors } from "../../utils/colours.js";
+import colors from "../../utils/colors.js";
 
 
 const PasswordInputFields = ({ placeholder, value, onChangeText, secureTextEntry = false }) => {

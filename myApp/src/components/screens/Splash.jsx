@@ -5,7 +5,7 @@ import { logoutUser } from '../../store/authActions';
 
 import { fonts } from '../../utils/fonts.js';
 import Button from '../atoms/Button';
-import { colors } from '../../utils/colours.js';
+import colors from '../../utils/colors.js';
 
 const Splash = ({ navigation }) => {
   const dispatch = useDispatch();
